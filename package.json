@@ -1,0 +1,9 @@
+{
+  "name": "crud-with-express",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "latest",
+    "express-art-template": "latest",
+    "body-parser": "latest"
+  }
+}
