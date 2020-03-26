@@ -1,13 +1,18 @@
+## Three ways for permanent data storage
+- Default - Json: router.js,crud.js
+- Mongodb: router_mongo.js,crud_mongo.js
+- Myqld: router_mysql.js,crud_mysql.js 
+
 ##Tasks:
 - step one: define the router/api
 - step two: app.js - install libs, mount middleware and router
 - step three: crud.js - based on router
-- step four: page by page coding
+- step four:  router coding
 
 ##Libs:
 - body-parser for POST request
 - art-template for templating rendering
-- bootstrap for styling
+- bootstrap for responsive styling
 
 
 

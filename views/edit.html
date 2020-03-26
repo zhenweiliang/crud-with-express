@@ -13,7 +13,7 @@
 <body>
 <h2 class="sub-header text-center">Edit Student</h2>
 <form action="/students/edit" method="post">
-    <input type="hidden" name="id" value={{ student.id }}>
+    <input type="hidden" name="id" value={{ student.id }} />
     <div class="form-group">
         <label for="">Name</label>
         <input type="text" class="form-control" name="name" required minlength="2" maxlength="10"
@@ -23,7 +23,7 @@
         <label for="">Sex</label>
         <div>
             <label class="radio-inline">
-                <input type="radio" name="gender" value="0" checked> Male
+                <input type="radio" name="gender" value="0" checked /> Male
             </label>
             <label class="radio-inline">
                 <input type="radio" name="gender" value="1"> Female
