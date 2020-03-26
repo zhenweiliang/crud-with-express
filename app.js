@@ -1,7 +1,8 @@
 const express = require('express')
 const artTemplate = require('express-art-template')
 const bodyParser = require('body-parser')
-const router=require('./router')
+// const router=require('./router_mongo')  //use Mango Db
+const router=require('./router')     //use db.json
 
 const app = express()
 

@@ -15,12 +15,7 @@ function addStudent (newStudent) {
       if (err) {reject(err)}
       const students = JSON.parse(data).students
       //new Student Id equal to current Max id + 1
-      const studentIds = []
-      for (let i = 0; i < students.length; i++) {
-        studentIds.push(students[i].id)
-      }
-      newStudent.id = Math.max(...studentIds) + 1
-      console.log(newStudent.id)
+       newStudent.id = Date.now()
       students.push(newStudent)
       //
       fs.writeFile('./db.json', JSON.stringify({ students }), (err) => {
