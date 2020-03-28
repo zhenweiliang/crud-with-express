@@ -1,4 +1,4 @@
-## Three ways for permanent data storage
+## Three ways for permanent data storage,switch by router in app.js
 - Default - Json: router.js,crud.js
 - Mongodb: router_mongo.js,crud_mongo.js
 - Myqld: router_mysql.js,crud_mysql.js 
