@@ -1,7 +1,7 @@
 ## Three ways for permanent data storage,switch by router in app.js
 - Default - Json: router.js,crud.js
 - Mongodb: router_mongo.js,crud_mongo.js
-- Myqld: router_mysql.js,crud_mysql.js 
+- Mysql: router_mysql.js,crud_mysql.js 
 
 ``CREATE TABLE `student` (
    `id` int(11) NOT NULL AUTO_INCREMENT,
